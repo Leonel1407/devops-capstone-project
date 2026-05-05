@@ -1,0 +1,23 @@
+---
+
+name: User Story
+title: "[FEATURE] Update account"
+labels: feature,backend
+-----------------------
+
+**As a** user
+**I need** to update account information
+**So that** customer data remains accurate
+
+### Details and Assumptions
+
+* PUT /accounts/{id}
+* Validate input fields
+
+### Acceptance Criteria
+
+```gherkin
+Given an existing account
+When a valid update request is sent
+Then the account should be updated successfully
+```
