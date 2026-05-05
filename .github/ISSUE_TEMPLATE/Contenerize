@@ -1,0 +1,23 @@
+---
+
+name: User Story
+title: "[DEVOPS] Dockerize service"
+labels: devops,docker
+---------------------
+
+**As a** developer
+**I need** to containerize the microservice
+**So that** it can run consistently across environments
+
+### Details and Assumptions
+
+* Create Dockerfile
+* Expose application port
+
+### Acceptance Criteria
+
+```gherkin
+Given the application source code
+When the Docker image is built
+Then the container should run successfully
+```
